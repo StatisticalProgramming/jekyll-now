@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Start Here
-permalink: /start-here/
+permalink: /start/
 ---
 
 Welcome! The purpose of this site it to serve as a repository for exercises useful  for mastering the basics of common statistical methods. 
