@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Welcome to Statistical Conditioning!
+title: Start Here!
+permalink: /start-here/
 ---
 
 Welcome! The purpose of this site it to serve as a repository for exercises useful  for mastering the basics of common statistical methods. 
