@@ -45,4 +45,4 @@ But you don't have to make this decision as you start learning statistics.
 I suspect many people with start learning one of these programs and decide later to learn the other.
 There may also be some brave enough to try and learn both. 
 I hope this website will be helpful in each of these cases. 
-I will include code for both R and SPSS, and maybe for other programs (Stata next on my list). I also encourage others to provide code for software they may use.
+I will include code for both R and SPSS, and maybe for other programs (Stata is next on my list). I also encourage others to provide code for software they may use.
