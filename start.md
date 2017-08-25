@@ -3,7 +3,6 @@ layout: page
 title: Welcome!
 permalink: /start/
 ---
-
 The purpose of this site it to serve as a repository for exercises useful  for mastering the basics of common statistical methods. 
 Learning statistics is a lot like getting into shape. 
 You wouldn't expect to get into shape simply by going to the gym and listening to your personal trainer talk about the types of exercises you can do; you have to use that knowledge, which means you have to exercise your muscles. 
