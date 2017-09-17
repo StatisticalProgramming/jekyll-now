@@ -1,0 +1,48 @@
+---
+layout: post
+title: A Lady Tasting Tea
+---
+
+```{r}
+library(tidyverse)
+library(mosaic)
+```
+
+## Setup
+
+
+
+$$
+P(\text{correct}) = \frac{\text{Number of way to be correct}} {\text{Total number of outcomes}}
+$$ 
+
+## Determining the total number of outcomes
+
+If we have eight cups there are eight ways we can choose one cup. 
+How many ways are there to choose two cups from eight?
+Let's break this problem down.
+We decided there are eight ways to choose the first cup. 
+Because we can't choose the same cup twice, that removes the first cup from the list of possible choices for the second cup.
+So, we have one less to choose from, leaving seven possible choices for the second cup. 
+To determine the number of ways to choose two cups from eight we simply multiple these to numbers (8 * 7 = 56).
+
+```{r}
+cups <- 1:8 # We can use integers to label the eight cups.
+r <- 4 # Number of correct quesses.
+n <- 8 # Total number of cups of tea.
+```
+
+First, lets determine the number of possible outcomes for which we can pick 4 cups out of eight.
+There are eight ways we can select the first cup. 
+Or, said differently, we must select the first cup from among the possible eight.
+Regardless of which cup we select first, there will be seven ways to select the second cup, because when we remove the first cup only seven remain.
+```{r}
+x <- replicate(1e5, sample(1:8, 2,  replace = FALSE))
+perms <- as.data.frame(t(unique(x, MARGIN = 2)))
+names(perms) <- c("C1", "C2")
+p <- perms %>% 
+  arrange(C1, C2)
+pander::pander(p)
+```
+
+
