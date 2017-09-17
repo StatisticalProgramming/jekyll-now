@@ -1,10 +1,9 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
-
-I am currently an assistant prefessor of quantitative methods in the college of education at Auburn University. 
+I am currently an assistant prefessor of quantitative methods in the college of education at Auburn University. In addition to teaching classes in quantitative methods, I have an active research program.
 
 ### More Information
 
